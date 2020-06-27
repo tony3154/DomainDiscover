@@ -24,6 +24,7 @@ func DomainMain() {
 		switch inputNumber {
 		case 1:
 			fmt.Println("查询域名")
+
 		case 2:
 			fmt.Println("增加域名")
 		case 3:
@@ -36,7 +37,6 @@ func DomainMain() {
 		default:
 			fmt.Println("输入无效，请重新输入")
 		}
-
 	}
 
 
