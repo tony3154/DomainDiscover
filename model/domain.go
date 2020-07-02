@@ -1,11 +1,12 @@
 package model
 
 type Domain struct {
-	domainName        string
-	project           string
-	service           string
+	ID                int
+	DomainName        string
+	Project           string
+	Service           string
 	CDN               string
-	sslState               bool
-	whiteList         string
-	whiteListLocation string
+	SslState          bool
+	WhiteList         string
+	WhiteListLocation string
 }

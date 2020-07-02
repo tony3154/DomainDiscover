@@ -3,6 +3,7 @@ package utils
 import (
 	"database/sql"
 	"fmt"
+	"os"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -13,11 +14,13 @@ var (
 )
 
 func init() {
-	DB, err = sql.Open("mysql", "domain:3154@tcp(192.168.0.100:3306)/domain")
-	fmt.Println("数据库连接成功")
+	DB, err = sql.Open("mysql", "go:YBom1234!@#@tcp(192.168.182.200:3306)/domain")
 	if err != nil {
 		fmt.Println(err)
+		os.Exit(0)
 	}
+	fmt.Println("数据库连接成功")
+
 	_, err = DB.Exec("CREATE TABLE IF NOT EXISTS user(id int(10) primary key auto_increment,name varchar(20),password varchar(30));")
 	if err != nil {
 		fmt.Println("create table user failed:", err.Error())
@@ -28,6 +31,5 @@ func init() {
 		fmt.Println("create table domain failed:", err.Error())
 		return
 	}
-
 
 }

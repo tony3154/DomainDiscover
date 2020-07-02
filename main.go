@@ -7,8 +7,6 @@ import (
 	"os"
 )
 
-
-
 func main() {
 
 	//主菜单变量
@@ -20,6 +18,7 @@ func main() {
 3.修改
 4.退出
 `
+
 	for {
 		fmt.Println(menu)
 		var inputNumber int
