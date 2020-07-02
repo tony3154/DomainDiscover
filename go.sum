@@ -28,6 +28,8 @@ github.com/josharian/impl v1.0.0/go.mod h1:SQ6aJMP6xsJpGSD/36IIqrUdigLCYe9bz/9o5
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/mdempsky/gocode v0.0.0-20200405233807-4acdcbdea79d h1:P8ngpzttYTqLj67Xt66V+2o5C53fGhXvkbqwFXMFvVI=
 github.com/mdempsky/gocode v0.0.0-20200405233807-4acdcbdea79d/go.mod h1:hltEC42XzfMNgg0S1v6JTywwra2Mu6F6cLR03debVQ8=
+github.com/modood/table v0.0.0-20200225102042-88de94bb9876 h1:B4Xx3qOvn+rJip+843KkfIn0zefjyr6A5FS5PjMlpLY=
+github.com/modood/table v0.0.0-20200225102042-88de94bb9876/go.mod h1:41qyXVI5QH9/ObyPj27CGCVau5v/njfc3Gjj7yzr0HQ=
 github.com/nicksnyder/go-i18n v2.0.3+incompatible h1:XCCaWsCoy4KlWkhOr+63dkv6oJmitJ573uJqDBAiFiQ=
 github.com/nsf/gocode v0.0.0-20190302080247-5bee97b48836 h1:oc3CL18CoGhyOQJ7HDa9gJAde33bwI8Vi28zLdIzJVc=
 github.com/nsf/gocode v0.0.0-20190302080247-5bee97b48836/go.mod h1:6Q8/OMaaKAgTX7/jt2bOXVDrm1eJhoNd+iwzghR7jvs=

@@ -4,6 +4,8 @@ import (
 	"domain/model"
 	"domain/utils"
 	"fmt"
+
+	"github.com/modood/table"
 )
 
 //查询菜单，分三个，列出所有，以域名查询，以项目名查询
@@ -39,10 +41,8 @@ func SelectAll() {
 
 	//封装查询返回
 	dbdomains := DBreturn(rows)
-	fmt.Printf("域名"\t\t"项目")
-	for _, v := range dbdomains {
-		fmt.Println(v)
-	}
+	t := table.Table(dbdomains)
+	fmt.Println(t)
 }
 
 //根据域名查询
@@ -58,10 +58,8 @@ func SelectDomain(name string) {
 	//封装查询返回
 	dbdomains := DBreturn(rows)
 
-	for _, v := range dbdomains {
-		fmt.Println(v)
-	}
-
+	t := table.Table(dbdomains)
+	fmt.Println(t)
 }
 
 //根据项目
@@ -75,10 +73,8 @@ func SelectProject(project string) {
 
 	//封装查询返回
 	dbdomains := DBreturn(rows)
-
-	for _, v := range dbdomains {
-		fmt.Println(v)
-	}
+	t := table.Table(dbdomains)
+	fmt.Println(t)
 }
 
 //添加域名到数据库

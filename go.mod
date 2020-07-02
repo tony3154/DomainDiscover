@@ -14,6 +14,7 @@ require (
 	github.com/haya14busa/goplay v1.0.0 // indirect
 	github.com/josharian/impl v1.0.0 // indirect
 	github.com/mdempsky/gocode v0.0.0-20200405233807-4acdcbdea79d // indirect
+	github.com/modood/table v0.0.0-20200225102042-88de94bb9876
 	github.com/nsf/gocode v0.0.0-20190302080247-5bee97b48836 // indirect
 	github.com/ramya-rao-a/go-outline v0.0.0-20200117021646-2a048b4510eb // indirect
 	github.com/rogpeppe/godef v1.1.2 // indirect
