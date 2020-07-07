@@ -6,7 +6,9 @@ type Domain struct {
 	Project           string
 	Service           string
 	CDN               string
-	SslState          bool
+	HTTPS             string
+	Backend           string
 	WhiteList         string
 	WhiteListLocation string
+	Notes             string
 }

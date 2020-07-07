@@ -12,8 +12,9 @@ func DomainMain() {
 2.增加域名
 3.删除域名
 4.修改域名
-5.返回上级
-6.退出
+5.批量导入
+6.返回上级
+7.退出
 `
 
 LOOP:
@@ -33,11 +34,15 @@ LOOP:
 			fmt.Println("删除域名")
 			DeleteDomain()
 		case 4:
-			fmt.Println("修改域名")
+			fmt.Println("修改域名信息")
+			ModifyMenu()
 		case 5:
+			fmt.Println("批量导入域名")
+			ImportDomain()
+		case 6:
 			fmt.Println("返回上级")
 			break LOOP
-		case 6:
+		case 7:
 			fmt.Println("欢迎使用，下次再见！！")
 			os.Exit(0)
 
